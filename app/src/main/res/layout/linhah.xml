@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:paddingBottom="5sp"
+    android:paddingTop="5sp"
+    android:weightSum="14"
+    android:id="@+id/linha_historico">
+
+    <!--ffad99
+    d6e3b5-->
+
+
+    <LinearLayout
+        android:id="@+id/coluna1"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <!-- height dos filhos tem que ser 0 para o layout weight funcionar,
+            dessa forma, a altura será definida pelo peso de cada linha, que no caso abixo, são iguais
+
+            se o layout_height= matchparent, o tamanho do filho seguira o peso
+            se for 0sp, vai ser igual a wrapcontent-->
+
+        <TextView
+            android:id="@+id/textolinhah"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Matheus Oliveira de freitas"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textolinhah3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Mathesu Oliveira de freitas"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textolinhah5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Leitura"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/coluna2"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textolinhah2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Ponto 2"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textolinhah4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2017-12-12"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textolinhah6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Ponto Sug. 30"
+            android:textSize="15sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+
+    </LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Para adicionar icone, tem que adicionar um drawable
+    Drawable -> botão direito -> new -> image Asset -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_action_name"
+        android:id="@+id/adc"
+        app:showAsAction="always"
+        android:title="Adicionar"></item>
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/adcParte">
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_adcparte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Publicador"
+        android:textColor="@android:color/black"
+        android:inputType="text"
+        android:nextFocusDown="@id/actv2_adcparte"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/actv2_adcparte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/ajudante"
+        android:inputType="text"
+        android:nextFocusDown="@id/ponto_adc"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <EditText
+            android:id="@+id/ponto_adc"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/ponto"
+            android:layout_weight="3"
+            android:inputType="number"
+            android:maxLength="2"
+            android:nextFocusDown="@id/data_adc"/>
+
+        <TextView
+            android:id="@+id/nomeponto"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="7"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/data_adc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin="8sp"
+        android:layout_marginStart="16sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin="8sp"
+        android:layout_marginStart="16sp"
+        android:textColor="@android:color/black"
+        />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

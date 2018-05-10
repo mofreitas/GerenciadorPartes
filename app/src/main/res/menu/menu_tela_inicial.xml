@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mathe.gerenciadorpartes.TelaInicial">
+
+    <!--Para adicionar icone, tem que adicionar um drawable
+    Drawable -> botão direito -> new -> image Asset -->
+    <item
+        android:id="@+id/adcpub"
+        android:orderInCategory="100"
+        android:title="adicionar"
+        app:showAsAction="always"
+        android:icon="@drawable/adicionarpub"/>
+ <!--https://stackoverflow.com/questions/29047902/how-to-add-an-image-to-the-drawable-folder-in-android-studio-->
+
+
+
+
+
+    <item
+        android:title="Opções"
+        app:showAsAction="always"
+        android:orderInCategory="200"
+        android:icon="@drawable/mais_settings_ic">
+        <menu>
+        <item
+            android:id="@+id/backup"
+            android:orderInCategory="100"
+            android:title="Backup"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/restore"
+            android:orderInCategory="100"
+            android:title="Restaurar Backup"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/removePub"
+            android:orderInCategory="100"
+            android:title="Remover Publicador"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/l_backup"
+            android:orderInCategory="100"
+            android:title="Backup Local"
+            app:showAsAction="always"/>
+        </menu>
+    </item>
+</menu>

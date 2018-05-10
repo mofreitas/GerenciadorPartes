@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mathe.gerenciadorpartes.Sugeridos"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/minhatoolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="Sugeridos"
+        >
+
+        <Spinner
+            android:id="@+id/spinner_sugeridos"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/pendentes"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_sugeridos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/publicador"
+            android:layout_margin="8sp"
+            android:inputType="text"/>
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lista_sugeridos"/>
+
+
+</android.support.v7.widget.LinearLayoutCompat>

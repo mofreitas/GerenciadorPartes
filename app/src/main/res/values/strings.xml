@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Gerenciador Partes</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="Cancelar">Cancelar</string>
+    <string name="Feito">Feito</string>
+    <string name="Editar">Editar</string>
+    <string-array name="tipos_parte">
+        <item>Leitura</item>
+        <item>Primeira conversa</item>
+        <item>Primeira revisita</item>
+        <item>Segunda revisita</item>
+        <item>Terceira revisita</item>
+        <item>Estudo bíblico</item>
+        <item>Discurso</item>
+    </string-array>
+    <string name="ponto">Ponto</string>
+    <string name="ajudante">Ajudante (opc)</string>
+    <string name="publicador">Publicador</string>
+    <string-array name="pendentes">
+        <item>Data, cres</item>
+        <item>Data, decr</item>
+        <item>Nº de partes, cres</item>
+        <item>Nº de partes, decr</item>
+        <item>Nome, cres</item>
+        <item>Nome, decr</item>
+    </string-array>
+    <string name="title_activity_adicionar_parte">AdicionarParte</string>
+    <string-array name="sexo">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+    <string name="title_activity_relatorio">relatorio</string>
+</resources>

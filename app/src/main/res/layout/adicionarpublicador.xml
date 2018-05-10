@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<EditText
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="16sp"
+    android:layout_marginLeft="16sp"
+    android:layout_marginRight="16sp"
+    android:layout_marginBottom="8sp"
+    android:hint="Nome do publicador"
+    android:id="@+id/adcionarpublicador">
+
+</EditText>
+
+    <Spinner
+        android:id="@+id/spinnersexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_marginBottom="16sp"
+        android:entries="@array/sexo"/>
+
+
+</LinearLayout>

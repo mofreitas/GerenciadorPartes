@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Para adicionar icone, tem que adicionar um drawable
+    Drawable -> botão direito -> new -> image Asset -->
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/adcpub"
+        android:orderInCategory="100"
+        android:title="Editar"
+        app:showAsAction="always"
+        android:icon="@drawable/editar"/>
+</menu>

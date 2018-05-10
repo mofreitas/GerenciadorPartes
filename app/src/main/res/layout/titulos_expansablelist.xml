@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:minHeight="50sp"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:text="Homens"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="40sp"
+        android:id="@+id/titulo_sugeridos"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/itens_grupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_gravity="center_vertical|end"
+        android:text="1"
+        android:layout_weight="1"
+        android:layout_marginRight="20sp"
+        />
+
+</android.support.v7.widget.LinearLayoutCompat>
